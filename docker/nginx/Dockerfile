@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.25.3-alpine3.18
 LABEL maintainer="David Parrish <daveparrish@tutanota.com>"
 
 # Add openssl for creating self-signed certificate
